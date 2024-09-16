@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "category": "Health",
+    "title": "Clean water for children",
+    "img": "https://i.ibb.co.com/S3sR7NK/Health.png",
+    "description": "Explore essential tips to maintain a healthy lifestyle, including balanced diets, exercise routines, and mental well-being strategies. Prioritize your health by incorporating these small but effective changes into your daily routine, ensuring longevity and vitality.",
+    "color": {
+      "backgroundColor": "rgba(0,82,255,0.15)",
+      "categoryBackgroundColor": "rgba(0,82,255,0.20)",
+      "textColor": "#0052FF"
+    }
+  },
+  {
+    "id": 2,
+    "category": "Education",
+    "title": "Good Education",
+    "img": "https://i.ibb.co.com/2yj7BnM/Education.png",
+    "description": "Discover the top online learning platforms offering courses in various subjects. Enhance your skills and knowledge from the comfort of your home, whether you're a student, professional, or lifelong learner seeking new opportunities.",
+    "color": {
+      "backgroundColor": "rgba(255,68,74,0.15)",
+      "categoryBackgroundColor": "rgba(255,68,74,0.20)",
+      "textColor": "#FF444A"
+    }
+  },
+  {
+    "id": 3,
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "img": "https://i.ibb.co.com/s1kNtRc/Clothing.png",
+    "description": "Stay updated with the latest fashion trends, from seasonal collections to timeless styles. Find tips on dressing for different occasions and discover new ways to express your unique personality through clothing and accessories.",
+    "color": {
+      "backgroundColor": "rgba(121,194,63,0.15)",
+      "categoryBackgroundColor": "rgba(121,194,63,0.20)",
+      "textColor": "#79C23F"
+    }
+  },
+  {
+    "id": 4,
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "img": "https://i.ibb.co.com/0yqdF3M/Food.png",
+    "description": "Learn to cook delicious and nutritious meals with our selection of healthy recipes. From quick snacks to gourmet dishes, these recipes will help you maintain a balanced diet without sacrificing taste or convenience.",
+    "color": {
+      "backgroundColor": "rgba(248,113,71,0.15)",
+      "categoryBackgroundColor": "rgba(248,113,71,0.20)",
+      "textColor": "#F87147"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "img": "https://i.ibb.co.com/0yqdF3M/Food.png",
+    "description": "Learn to cook delicious and nutritious meals with our selection of healthy recipes. From quick snacks to gourmet dishes, these recipes will help you maintain a balanced diet without sacrificing taste or convenience.",
+    "color": {
+      "backgroundColor": "rgba(248,113,71,0.15)",
+      "categoryBackgroundColor": "rgba(248,113,71,0.20)",
+      "textColor": "#F87147"
+    }
+  },
+  {
+    "id": 6,
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "img": "https://i.ibb.co.com/s1kNtRc/Clothing.png",
+    "description": "Stay updated with the latest fashion trends, from seasonal collections to timeless styles. Find tips on dressing for different occasions and discover new ways to express your unique personality through clothing and accessories.",
+    "color": {
+      "backgroundColor": "rgba(121,194,63,0.15)",
+      "categoryBackgroundColor": "rgba(121,194,63,0.20)",
+      "textColor": "#79C23F"
+    }
+  },
+  {
+    "id": 7,
+    "category": "Education",
+    "title": "Good Education",
+    "img": "https://i.ibb.co.com/2yj7BnM/Education.png",
+    "description": "Discover the top online learning platforms offering courses in various subjects. Enhance your skills and knowledge from the comfort of your home, whether you're a student, professional, or lifelong learner seeking new opportunities.",
+    "color": {
+      "backgroundColor": "rgba(255,68,74,0.15)",
+      "categoryBackgroundColor": "rgba(255,68,74,0.20)",
+      "textColor": "#FF444A"
+    }
+  },
+  {
+    "id": 8,
+    "category": "Health",
+    "title": "Clean water for children",
+    "img": "https://i.ibb.co.com/S3sR7NK/Health.png",
+    "description": "Explore essential tips to maintain a healthy lifestyle, including balanced diets, exercise routines, and mental well-being strategies. Prioritize your health by incorporating these small but effective changes into your daily routine, ensuring longevity and vitality.",
+    "color": {
+      "backgroundColor": "rgba(0,82,255,0.15)",
+      "categoryBackgroundColor": "rgba(0,82,255,0.20)",
+      "textColor": "#0052FF"
+    }
+  },
+
+  {
+    "id": 9,
+    "category": "Health",
+    "title": "Clean water for children",
+    "img": "https://i.ibb.co.com/S3sR7NK/Health.png",
+    "description": "Explore essential tips to maintain a healthy lifestyle, including balanced diets, exercise routines, and mental well-being strategies. Prioritize your health by incorporating these small but effective changes into your daily routine, ensuring longevity and vitality.",
+    "color": {
+      "backgroundColor": "rgba(0,82,255,0.15)",
+      "categoryBackgroundColor": "rgba(0,82,255,0.20)",
+      "textColor": "#0052FF"
+    }
+  },
+  {
+    "id": 10,
+    "category": "Education",
+    "title": "Good Education",
+    "img": "https://i.ibb.co.com/2yj7BnM/Education.png",
+    "description": "Discover the top online learning platforms offering courses in various subjects. Enhance your skills and knowledge from the comfort of your home, whether you're a student, professional, or lifelong learner seeking new opportunities.",
+    "color": {
+      "backgroundColor": "rgba(255,68,74,0.15)",
+      "categoryBackgroundColor": "rgba(255,68,74,0.20)",
+      "textColor": "#FF444A"
+    }
+  },
+  {
+    "id": 11,
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "img": "https://i.ibb.co.com/s1kNtRc/Clothing.png",
+    "description": "Stay updated with the latest fashion trends, from seasonal collections to timeless styles. Find tips on dressing for different occasions and discover new ways to express your unique personality through clothing and accessories.",
+    "color": {
+      "backgroundColor": "rgba(121,194,63,0.15)",
+      "categoryBackgroundColor": "rgba(121,194,63,0.20)",
+      "textColor": "#79C23F"
+    }
+  },
+  {
+    "id": 12,
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "img": "https://i.ibb.co.com/0yqdF3M/Food.png",
+    "description": "Learn to cook delicious and nutritious meals with our selection of healthy recipes. From quick snacks to gourmet dishes, these recipes will help you maintain a balanced diet without sacrificing taste or convenience.",
+    "color": {
+      "backgroundColor": "rgba(248,113,71,0.15)",
+      "categoryBackgroundColor": "rgba(248,113,71,0.20)",
+      "textColor": "#F87147"
+    }
+  }
+]
