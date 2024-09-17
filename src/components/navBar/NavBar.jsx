@@ -1,4 +1,4 @@
-import Logo from '../../resource/Logo.png'
+
 import { useState } from 'react';
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('Home')
@@ -6,7 +6,7 @@ const NavBar = () => {
         setActiveLink(params)
     }
   return (
-    <nav className="navbar justify-between bg-[rgba(255,255,255,0.95)] px-5 pt-3 pb-10 md:px-14 lg:px-32">
+    <nav className="navbar justify-between bg-[rgba(255,255,255,0.95)] px-5 md:px-14 lg:px-32 pt-3 md:pt-12">
       <div className="navbar-start justify-between w-full md:w-auto">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -29,7 +29,7 @@ const NavBar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            {/* here menu style come from App.css */}
+            {/* here menu style 'activeLink' come from App.css */}
             <li>
               <a onClick={()=> handleActiveLink('Home')} className={activeLink == 'Home'? 'activeLink' : '' }>Home</a>
             </li>
@@ -41,11 +41,11 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <img src={Logo} className='w-[90px] md:w-[140px] lg:w-[240px] h-[30px] md:h-[45px] lg:h-[70px]' alt="Logo" />
+        <img src='/resource/Logo.png' className='w-[90px] md:w-[140px] lg:w-[240px] h-[30px] md:h-[45px] lg:h-[70px]' alt="Logo" />
       </div>
       <div className="navbar-center hidden md:flex lg:ml-10">
         <ul className="menu menu-horizontal space-x-4 px-1">
-            {/* here menu style come from App.css */}
+            {/* here menu style 'activeLink' come from App.css */}
         <li>
               <a onClick={()=> handleActiveLink('Home')} className={activeLink == 'Home'? 'activeLink' : '' }>Home</a>
             </li>
