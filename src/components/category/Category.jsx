@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
 
 
 const Category = ({card}) => {
     const {id, category, title, img, description, color: colorObj} = card
 
     return (
-        <div style={{backgroundColor:colorObj.backgroundColor}} className="rounded-md">
+    <Link to = {`/category/${id}`}>
+            <div style={{backgroundColor:colorObj.backgroundColor}} className="rounded-md">
             <img src={img} alt="" />
             {/* card category and title container */}
             <div>
@@ -15,6 +17,7 @@ const Category = ({card}) => {
                 <h4 style={{color: colorObj.textColor}} className="text-lg font-semibold ml-3 mb-4">{title}</h4>
             </div>
         </div>
+    </Link>
     );
 };
 

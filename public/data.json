@@ -4,7 +4,8 @@
     "category": "Health",
     "title": "Clean water for children",
     "img": "https://i.ibb.co.com/S3sR7NK/Health.png",
-    "description": "Explore essential tips to maintain a healthy lifestyle, including balanced diets, exercise routines, and mental well-being strategies. Prioritize your health by incorporating these small but effective changes into your daily routine, ensuring longevity and vitality.",
+    "description": "Access to clean water is essential for children's health, preventing waterborne diseases and supporting overall well-being. Clean water helps maintain hydration, which is crucial for energy, cognitive function, and physical health. Ensuring safe drinking water reduces the risk of dehydration and illness. Communities must focus on water purification and conservation to promote long-term health and prevent contamination. Prioritizing clean water access contributes to healthier futures and improves quality of life for children, supporting their growth and development.",
+    "price": 220,
     "color": {
       "backgroundColor": "rgba(0,82,255,0.15)",
       "categoryBackgroundColor": "rgba(0,82,255,0.20)",
@@ -16,7 +17,8 @@
     "category": "Education",
     "title": "Good Education",
     "img": "https://i.ibb.co.com/2yj7BnM/Education.png",
-    "description": "Discover the top online learning platforms offering courses in various subjects. Enhance your skills and knowledge from the comfort of your home, whether you're a student, professional, or lifelong learner seeking new opportunities.",
+    "description": "Good education is critical for personal and societal advancement. It equips individuals with essential knowledge and skills for success in various life areas. Quality education fosters personal growth, career development, and community contribution. Online learning platforms have made education more accessible, allowing learners of all ages to acquire new skills and knowledge from home. Investing in education benefits individuals and society by promoting innovation and progress.",
+    "price": 235,
     "color": {
       "backgroundColor": "rgba(255,68,74,0.15)",
       "categoryBackgroundColor": "rgba(255,68,74,0.20)",
@@ -28,7 +30,8 @@
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "img": "https://i.ibb.co.com/s1kNtRc/Clothing.png",
-    "description": "Stay updated with the latest fashion trends, from seasonal collections to timeless styles. Find tips on dressing for different occasions and discover new ways to express your unique personality through clothing and accessories.",
+    "description": "Used clothing drives support communities in need and promote sustainability. Donating gently used clothes helps those without access to new garments and reduces waste by giving items a second life. These drives often include clothing for various occasions. Participation in used clothing drives assists individuals and contributes to environmental conservation by minimizing textile waste, making a positive impact locally and globally.",
+    "price": 210,
     "color": {
       "backgroundColor": "rgba(121,194,63,0.15)",
       "categoryBackgroundColor": "rgba(121,194,63,0.20)",
@@ -40,20 +43,21 @@
     "category": "Food",
     "title": "Better Food for Everyone",
     "img": "https://i.ibb.co.com/0yqdF3M/Food.png",
-    "description": "Learn to cook delicious and nutritious meals with our selection of healthy recipes. From quick snacks to gourmet dishes, these recipes will help you maintain a balanced diet without sacrificing taste or convenience.",
+    "description": "Improving food access involves providing nutritious, tasty, and affordable meals. Healthy eating is vital for overall well-being, enhancing physical health and mental clarity. Discovering new recipes and meal plans helps individuals prepare balanced dishes that meet various dietary needs. Focusing on fresh, whole ingredients and reducing processed foods supports a nutritious diet. Promoting better food options addresses food insecurity and encourages healthier eating habits for all.",
+    "price": 245,
     "color": {
       "backgroundColor": "rgba(248,113,71,0.15)",
       "categoryBackgroundColor": "rgba(248,113,71,0.20)",
       "textColor": "#F87147"
     }
   },
-
   {
     "id": 5,
     "category": "Food",
     "title": "Better Food for Everyone",
     "img": "https://i.ibb.co.com/0yqdF3M/Food.png",
-    "description": "Learn to cook delicious and nutritious meals with our selection of healthy recipes. From quick snacks to gourmet dishes, these recipes will help you maintain a balanced diet without sacrificing taste or convenience.",
+    "description": "Improving food access involves providing nutritious, tasty, and affordable meals. Healthy eating is vital for overall well-being, enhancing physical health and mental clarity. Discovering new recipes and meal plans helps individuals prepare balanced dishes that meet various dietary needs. Focusing on fresh, whole ingredients and reducing processed foods supports a nutritious diet. Promoting better food options addresses food insecurity and encourages healthier eating habits for all.",
+    "price": 250,
     "color": {
       "backgroundColor": "rgba(248,113,71,0.15)",
       "categoryBackgroundColor": "rgba(248,113,71,0.20)",
@@ -65,7 +69,8 @@
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "img": "https://i.ibb.co.com/s1kNtRc/Clothing.png",
-    "description": "Stay updated with the latest fashion trends, from seasonal collections to timeless styles. Find tips on dressing for different occasions and discover new ways to express your unique personality through clothing and accessories.",
+    "description": "Used clothing drives support communities in need and promote sustainability. Donating gently used clothes helps those without access to new garments and reduces waste by giving items a second life. These drives often include clothing for various occasions. Participation in used clothing drives assists individuals and contributes to environmental conservation by minimizing textile waste, making a positive impact locally and globally.",
+    "price": 225,
     "color": {
       "backgroundColor": "rgba(121,194,63,0.15)",
       "categoryBackgroundColor": "rgba(121,194,63,0.20)",
@@ -77,7 +82,8 @@
     "category": "Education",
     "title": "Good Education",
     "img": "https://i.ibb.co.com/2yj7BnM/Education.png",
-    "description": "Discover the top online learning platforms offering courses in various subjects. Enhance your skills and knowledge from the comfort of your home, whether you're a student, professional, or lifelong learner seeking new opportunities.",
+    "description": "Good education is critical for personal and societal advancement. It equips individuals with essential knowledge and skills for success in various life areas. Quality education fosters personal growth, career development, and community contribution. Online learning platforms have made education more accessible, allowing learners of all ages to acquire new skills and knowledge from home. Investing in education benefits individuals and society by promoting innovation and progress.",
+    "price": 230,
     "color": {
       "backgroundColor": "rgba(255,68,74,0.15)",
       "categoryBackgroundColor": "rgba(255,68,74,0.20)",
@@ -89,20 +95,21 @@
     "category": "Health",
     "title": "Clean water for children",
     "img": "https://i.ibb.co.com/S3sR7NK/Health.png",
-    "description": "Explore essential tips to maintain a healthy lifestyle, including balanced diets, exercise routines, and mental well-being strategies. Prioritize your health by incorporating these small but effective changes into your daily routine, ensuring longevity and vitality.",
+    "description": "Access to clean water is essential for children's health, preventing waterborne diseases and supporting overall well-being. Clean water helps maintain hydration, which is crucial for energy, cognitive function, and physical health. Ensuring safe drinking water reduces the risk of dehydration and illness. Communities must focus on water purification and conservation to promote long-term health and prevent contamination. Prioritizing clean water access contributes to healthier futures and improves quality of life for children, supporting their growth and development.",
+    "price": 220,
     "color": {
       "backgroundColor": "rgba(0,82,255,0.15)",
       "categoryBackgroundColor": "rgba(0,82,255,0.20)",
       "textColor": "#0052FF"
     }
   },
-
   {
     "id": 9,
     "category": "Health",
     "title": "Clean water for children",
     "img": "https://i.ibb.co.com/S3sR7NK/Health.png",
-    "description": "Explore essential tips to maintain a healthy lifestyle, including balanced diets, exercise routines, and mental well-being strategies. Prioritize your health by incorporating these small but effective changes into your daily routine, ensuring longevity and vitality.",
+    "description": "Access to clean water is essential for children's health, preventing waterborne diseases and supporting overall well-being. Clean water helps maintain hydration, which is crucial for energy, cognitive function, and physical health. Ensuring safe drinking water reduces the risk of dehydration and illness. Communities must focus on water purification and conservation to promote long-term health and prevent contamination. Prioritizing clean water access contributes to healthier futures and improves quality of life for children, supporting their growth and development.",
+    "price": 240,
     "color": {
       "backgroundColor": "rgba(0,82,255,0.15)",
       "categoryBackgroundColor": "rgba(0,82,255,0.20)",
@@ -114,7 +121,8 @@
     "category": "Education",
     "title": "Good Education",
     "img": "https://i.ibb.co.com/2yj7BnM/Education.png",
-    "description": "Discover the top online learning platforms offering courses in various subjects. Enhance your skills and knowledge from the comfort of your home, whether you're a student, professional, or lifelong learner seeking new opportunities.",
+    "description": "Good education is critical for personal and societal advancement. It equips individuals with essential knowledge and skills for success in various life areas. Quality education fosters personal growth, career development, and community contribution. Online learning platforms have made education more accessible, allowing learners of all ages to acquire new skills and knowledge from home. Investing in education benefits individuals and society by promoting innovation and progress.",
+    "price": 250,
     "color": {
       "backgroundColor": "rgba(255,68,74,0.15)",
       "categoryBackgroundColor": "rgba(255,68,74,0.20)",
@@ -126,7 +134,8 @@
     "category": "Clothing",
     "title": "Used Clothing Drive",
     "img": "https://i.ibb.co.com/s1kNtRc/Clothing.png",
-    "description": "Stay updated with the latest fashion trends, from seasonal collections to timeless styles. Find tips on dressing for different occasions and discover new ways to express your unique personality through clothing and accessories.",
+    "description": "Used clothing drives support communities in need and promote sustainability. Donating gently used clothes helps those without access to new garments and reduces waste by giving items a second life. These drives often include clothing for various occasions. Participation in used clothing drives assists individuals and contributes to environmental conservation by minimizing textile waste, making a positive impact locally and globally.",
+    "price": 205,
     "color": {
       "backgroundColor": "rgba(121,194,63,0.15)",
       "categoryBackgroundColor": "rgba(121,194,63,0.20)",
@@ -138,7 +147,8 @@
     "category": "Food",
     "title": "Better Food for Everyone",
     "img": "https://i.ibb.co.com/0yqdF3M/Food.png",
-    "description": "Learn to cook delicious and nutritious meals with our selection of healthy recipes. From quick snacks to gourmet dishes, these recipes will help you maintain a balanced diet without sacrificing taste or convenience.",
+    "description": "Improving food access involves providing nutritious, tasty, and affordable meals. Healthy eating is vital for overall well-being, enhancing physical health and mental clarity. Discovering new recipes and meal plans helps individuals prepare balanced dishes that meet various dietary needs. Focusing on fresh, whole ingredients and reducing processed foods supports a nutritious diet. Promoting better food options addresses food insecurity and encourages healthier eating habits for all.",
+    "price": 250,
     "color": {
       "backgroundColor": "rgba(248,113,71,0.15)",
       "categoryBackgroundColor": "rgba(248,113,71,0.20)",

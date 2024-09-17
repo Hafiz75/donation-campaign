@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('Home')
     function handleActiveLink(params) {
@@ -30,9 +31,11 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {/* here menu style 'activeLink' come from App.css */}
-            <li>
+             <Link to = '/'>
+             <li>
               <a onClick={()=> handleActiveLink('Home')} className={activeLink == 'Home'? 'activeLink' : '' }>Home</a>
             </li>
+             </Link>
             <li>
               <a onClick={()=> handleActiveLink('Donation')} className={activeLink == 'Donation'? 'activeLink' : '' }>Donation</a>
             </li>
@@ -46,9 +49,11 @@ const NavBar = () => {
       <div className="navbar-center hidden md:flex lg:ml-10">
         <ul className="menu menu-horizontal space-x-4 px-1">
             {/* here menu style 'activeLink' come from App.css */}
-        <li>
+            <Link to = '/'>
+             <li>
               <a onClick={()=> handleActiveLink('Home')} className={activeLink == 'Home'? 'activeLink' : '' }>Home</a>
             </li>
+             </Link>
             <li>
               <a onClick={()=> handleActiveLink('Donation')} className={activeLink == 'Donation'? 'activeLink' : '' }>Donation</a>
             </li>
