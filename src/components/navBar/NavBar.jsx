@@ -1,13 +1,24 @@
+import { useEffect, useState } from 'react';
+import { Link, useLocation} from 'react-router-dom';
 
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 const NavBar = () => {
-    const [activeLink, setActiveLink] = useState('Home')
-    function handleActiveLink(params) {
-        setActiveLink(params)
-    }
+  /* I used useLocation() to get the current location dynamically for styling the active link. useLocation captures the current path, and based on that, I determine which path is active.Then, I update the state with the active path by conditional statement. Then use a ternary operator to apply the appropriate style to the corresponding link.*/
+  const [activeLink, setActiveLink] = useState('');
+  const currentLocation = useLocation()
+  console.log(currentLocation);
+  useEffect(()=>{
+    const path = currentLocation.pathname
+    if (path === '/') {
+      setActiveLink('home');
+    } else if(path === '/donation'){
+      setActiveLink('donation');
+    } else if(path === '/statistics'){
+      setActiveLink('statistics');
+    } 
+  },[location.pathname])
+
   return (
-    <nav className="navbar justify-between bg-[rgba(255,255,255,0.95)] px-5 md:px-14 lg:px-32 pt-3 md:pt-12">
+    <nav className="navbar justify-between bg-[rgba(255,255,255,0.95)] px-5 md:px-14 lg:px-32">
       <div className="navbar-start justify-between w-full md:w-auto">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -30,36 +41,46 @@ const NavBar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            {/* here menu style 'activeLink' come from App.css */}
-             <Link to = '/'>
-             <li>
-              <a onClick={()=> handleActiveLink('Home')} className={activeLink == 'Home'? 'activeLink' : '' }>Home</a>
-            </li>
-             </Link>
             <li>
-              <a onClick={()=> handleActiveLink('Donation')} className={activeLink == 'Donation'? 'activeLink' : '' }>Donation</a>
+              <Link to="/">
+                <a className={activeLink === 'home' ? 'activeLink' : ''}>Home</a>
+              </Link>
             </li>
             <li>
-              <a onClick={()=> handleActiveLink('Statistics')} className={activeLink == 'Statistics'? 'activeLink' : '' }>Statistics</a>
+              <Link to="/donation">
+                <a className={activeLink === 'donation' ? 'activeLink' : ''}>Donation</a>
+              </Link>
+            </li>
+            <li>
+              <Link to="/statistics">
+                <a className={activeLink === 'statistics' ? 'activeLink' : ''}>Statistics</a>
+              </Link>
             </li>
           </ul>
         </div>
-        <img src='/resource/Logo.png' className='w-[90px] md:w-[140px] lg:w-[240px] h-[30px] md:h-[45px] lg:h-[70px]' alt="Logo" />
+        <img
+          src='/resource/Logo.png'
+          className='w-[90px] md:w-[140px] lg:w-[240px] h-[30px] md:h-[45px] lg:h-[70px]'
+          alt="Logo"
+        />
       </div>
       <div className="navbar-center hidden md:flex lg:ml-10">
         <ul className="menu menu-horizontal space-x-4 px-1">
-            {/* here menu style 'activeLink' come from App.css */}
-            <Link to = '/'>
-             <li>
-              <a onClick={()=> handleActiveLink('Home')} className={activeLink == 'Home'? 'activeLink' : '' }>Home</a>
-            </li>
-             </Link>
-            <li>
-              <a onClick={()=> handleActiveLink('Donation')} className={activeLink == 'Donation'? 'activeLink' : '' }>Donation</a>
-            </li>
-            <li>
-              <a onClick={()=> handleActiveLink('Statistics')} className={activeLink == 'Statistics'? 'activeLink' : '' }>Statistics</a>
-            </li>
+          <li>
+            <Link to="/">
+              <a className={activeLink === 'home' ? 'activeLink' : ''}>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="/donation">
+              <a className={activeLink === 'donation' ? 'activeLink' : ''}>Donation</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="/statistics">
+              <a className={activeLink === 'statistics' ? 'activeLink' : ''}>Statistics</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
