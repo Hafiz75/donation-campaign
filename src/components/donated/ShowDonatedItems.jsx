@@ -2,7 +2,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import Category from "../category/Category";
 import { useState } from "react";
 
-const Donated = () => {
+const ShowDonatedItems = () => {
     const [seeFull, setSeeFull] = useState(false)
     /* this fetch data comes from App.jsx */
   const donated = useLoaderData();
@@ -40,4 +40,4 @@ const Donated = () => {
   );
 };
 
-export default Donated;
+export default ShowDonatedItems;
