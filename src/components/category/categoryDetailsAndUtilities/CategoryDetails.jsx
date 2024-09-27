@@ -1,11 +1,24 @@
+import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { saveThisItem } from "../../utilities/utilities";
+import { getItems, saveThisItem } from "../../utilities/utilities";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CategoryDetails = () => {
+  /* this state use for reloading the page. this page need to reload for updating savedId. when we click the button this state change as a result reload this component and showing update toast */
+  const [reloadCategoryDetails, setReloadCategoryDetails] = useState(false);
   /* fetch data from App.jsx */
   const clickedItem = useLoaderData();
   const { id, img, price, title, description, color } = clickedItem;
-
+  /* here I take saved id from localStorage then match this id with card's id */
+  const savedId = getItems("donationId");
+  const notify = () => {
+    if (savedId.includes(id)) {
+      return toast("You have already donated this item!!!");
+    } else {
+      return toast("You have successfully donated.");
+    }
+  };
   function handleItem() {
     /* 
 When I call `saveThisItem` twice (once for saving the donation amount and once for saving the donation ID), the function checks the item in the localStorage for the existence which save is in the name of `donationId` each time. 
@@ -17,9 +30,15 @@ When I call `saveThisItem` twice (once for saving the donation amount and once f
 */
     saveThisItem("donationAmount", id, price);
     saveThisItem("donationId", id);
+    /* call react toastify function */
+    notify();
+    /* this set true or false */
+    setReloadCategoryDetails(!reloadCategoryDetails);
   }
   return (
     <div className="mx-5 md:mx-16 lg:mx-28 mt-5 md:mt-10 lg:mt-16 mb-5 md:mb-12 lg:mb-24">
+      {/* here show react toast */}
+      <ToastContainer />
       {/* container of button and img */}
       <div className="relative">
         {/* we donate just clicking this 'Donate' button and here we set the button position by absolute */}
@@ -32,7 +51,7 @@ When I call `saveThisItem` twice (once for saving the donation amount and once f
         </button>
         <img
           src={img}
-          className="w-full max-h-[600px] mb-2 md:mb-5 lg:mb-10 rounded-lg"
+          className="w-full max-h-[550px] mb-2 md:mb-5 lg:mb-10 rounded-lg"
           alt={title}
         />
       </div>

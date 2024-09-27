@@ -17,8 +17,8 @@ const Statistics = ({ yourDonation, totalDonation, updateDonationAmount }) => {
     labels: ["Your Donation", "Total Donation"],
     datasets: [
       {
-        data: [yourDonation, totalDonation],
-        backgroundColor: ["red", "green"],
+        data: [ yourDonation, totalDonation],
+        backgroundColor: ["green", "red"],
         borderColor: ["white"],
         borderWidth: 1,
       },
@@ -43,16 +43,15 @@ const Statistics = ({ yourDonation, totalDonation, updateDonationAmount }) => {
           return `${percentage}%`; // Display percentage
         },
         font: {
-          size: 20, // Font size for the percentage
+          size: 18, // Font size for the percentage
         },
       },
     },
   };
-  console.log("Statistics component run");
   return (
     /* here I use two divs first for flex positioning of the pie chart second is for sizing of pie chart */
     <div className="flex justify-center">
-      <div className="flex justify-center w-40 h-40 md:w-72 md:h-72 mt-5 md:mt-14">
+      <div className="flex justify-center w-48 h-48 md:w-72 md:h-72 mt-5 md:mt-14">
         <Pie data={data} options={options} />
       </div>
     </div>

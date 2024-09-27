@@ -1,8 +1,16 @@
-# React + Vite
+Three Project Features.........
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.Responsive Design for All Devices
+  n Description: Ensure that the application is fully responsive across all devices including desktops, tablets, and mobile 
+    phones.
 
-Currently, two official plugins are available:
+2.Card Detail with Donation Functionality
+    Description: When a visitor clicks anywhere on a card, it opens a detailes page about that card. The details page will have 
+    a "Donate" button. When the user click the "Donate" button, the card will be saved. When the user clicks on the 'Donation' 
+    link in the navbar, they will see all the cards they have donated to.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3.Search Functionality 
+    Description: Allow users to search for any item in the search bar. The application will display all cards that match the 
+    user's search input.
+
+    

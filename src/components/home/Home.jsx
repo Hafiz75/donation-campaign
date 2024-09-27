@@ -10,13 +10,12 @@ const Home = ({ searchInpValue, resetSearchInpValue, handleDisableBanner }) => {
     searchInpValue.trim() === ""
       ? data
       : data.filter((card) =>
-          card.title.toLowerCase().includes(searchInpValue.toLowerCase())
+          card.category.toLowerCase().includes(searchInpValue.toLowerCase())
         );
   /* this function will set disableBanner(App component) state's value true or false and send this state in the Root component and hide banner by condition.  */
   modifiedData.length == 0
     ? handleDisableBanner(true)
     : handleDisableBanner(false);
-  console.log("Home component run");
   return (
     <>
       {modifiedData.length > 0 ? (
@@ -28,8 +27,8 @@ const Home = ({ searchInpValue, resetSearchInpValue, handleDisableBanner }) => {
       ) : (
         /* show this message and button when search in wrong input */
         <div className="flex flex-col justify-center items-center gap-5 min-h-[70vh]">
-          <h3 className="text-2xl md:text-5xl font-bold">
-            Please Search Appropriate Letter
+          <h3 className="text-xl md:text-4xl font-bold">
+            Please Search Appropriate Text
           </h3>
           {/* when we click this button reset the state's value of searchInputValue into empty string. here call a function which define in the App component */}
           <button

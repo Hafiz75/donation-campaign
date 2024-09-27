@@ -11,7 +11,6 @@ const Root = ({ disableBanner }) => {
   const path = useCurrentLocation();
   /* this useEffect will run when path or disableBanner changes */
   useEffect(() => {
-    console.log("run useEffect from Root");
     if (path === "/") {
       /* when we search inappropriate text show us a message and disable banner. disableBanner's value set in the Home component by condition. */
       if (disableBanner) {

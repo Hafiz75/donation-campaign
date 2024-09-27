@@ -15,9 +15,8 @@ const NavBar = () => {
       setActiveLink("statistics");
     }
   }, [path]);
-  console.log("NavBar component run");
   return (
-    <nav className="navbar justify-between bg-[rgba(255,255,255,0.95)] px-5 md:px-14 lg:px-32">
+    <nav className="navbar justify-between bg-[rgba(255,255,255,0.95)] px-5 md:px-14 lg:px-32 pt-3 md:pt-8">
       <div className="navbar-start justify-between w-full md:w-auto">
         <div className="dropdown z-20">
           {/* this dropdown use for mobile device and hide in medium device */}

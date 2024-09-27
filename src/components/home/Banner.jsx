@@ -9,8 +9,8 @@ const Banner = () => {
     handleSearchInp(inpVal);
     setInpVal("");
   }
-  console.log("Banner component run");
   return (
+    /* banner overlaying image is in the Root component */
     <div className="pt-8 md:pt-16 lg:pt-28 pb-14 md:pb-28 lg:pb-44 mb-5 md:mb-14 lg:mb-20">
       <h3 className="text-[#0B0B0B] text-center text-lg md:text-3xl lg:text-5xl font-medium md:font-bold mb-6 md:mb-10 z-20">
         I Grow By Helping People In Need
